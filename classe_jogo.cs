@@ -24,16 +24,16 @@ class Heroi
         switch (Tipo)
         {
             case "mago":
-                ataque = "usou magia";
+                ataque = "magia";
                 break;
             case "guerreiro":
-                ataque = "usou espada";
+                ataque = "espada";
                 break;
             case "monge":
-                ataque = "usou artes marciais";
+                ataque = "artes marciais";
                 break;
             case "ninja":
-                ataque = "usou shuriken";
+                ataque = "shuriken";
                 break;
             default:
                 ataque = "atacou";
